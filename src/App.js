@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
-import Todos from './Todos'
-import AddTodo from './AddTodo'
+import React, { Component } from 'react';
+import Todos from './Todos';
+import AddTodo from './AddTodo';
 
 class App extends Component {
   state = {
     todos: [
-        {id: 1, content: 'take a shower'},
-        {id: 2, content: 'brush your teeth'},
+        {id: 1, content: 'Dance in the evening.'},
+        {id: 2, content: 'Cook chicken piccatta.'},
+        
     ]
   } 
 
@@ -28,7 +29,7 @@ this.setState({
   render() {
     return (
       <div className="todo-app container">
-        <h1 className="center blue-text">Todo's</h1>
+        <h1 className="center white-text">My To Do List</h1>
         <Todos todos={this.state.todos} deleteTodo={this.deleteTodo}/>
         <AddTodo addTodo={this.addTodo} />
         </div>

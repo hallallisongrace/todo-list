@@ -25,8 +25,8 @@ handleSubmit = (e) => {
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                <label>Add a new todo:</label>
-                <input type="text" onChange={this.handleChange} value={this.state.content} />
+                <label class="add-todo-title">Add a new todo:</label>
+                <input id="todo-input" type="text" onChange={this.handleChange} value={this.state.content} />
                 </form>
             </div>
         )

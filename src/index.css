@@ -17,8 +17,8 @@ code {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: #eee;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: wheat;
   
 }
  
@@ -29,14 +29,19 @@ body {
 }
  
 .collection-item{
-  background: #fff;
+  background: white;
 }
  
 .collection-item span:hover{
   cursor: pointer;
   text-decoration: line-through;
+  
 }
  
 form{
   margin: 20px 10px;
+  
 }
+
+
+ 
